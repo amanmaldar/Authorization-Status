@@ -6,8 +6,7 @@ success = 0
 pending = 0
 denied = 0
 url = 'https://egov.uscis.gov/casestatus/mycasestatus.do'
-for tmp in range (120000, 128999, 5):
-	#caseNumber = "YSC1890090188"
+for tmp in range (120000, 120100, 5):
 	caseNumber = "YSC1890" + `tmp`
 	#print caseNumber
 	values = {'appReceiptNum' : caseNumber}

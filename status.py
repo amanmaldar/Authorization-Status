@@ -44,5 +44,5 @@ for tmp in range (120000, 128999, 5):
 		del the_page, a, b
 	#	time.sleep(0.05)
 		#print the_page
-print "Approved" , success, "Pending" , pending, "Denied", denied, "Total I-756", pending+success+denied
+print "Approved" , success, "Pending" , pending, "Denied", denied, "Total ", pending+success+denied
 print "Handled", round((float(success+denied)/(float(success+pending+denied)))*100,2) , "%"

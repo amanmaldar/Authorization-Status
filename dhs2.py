@@ -96,7 +96,7 @@ def main():
 		
 		#print "Handled", round((float(success+denied+rejected+others)/(float(pending+success+denied+rejected+others)))*100,2) , "%"
 	elapsed_time = time.time() - start_time
-	time.strftime("%H:%M:%S", time.gmtime(elapsed_time))
+	print time.strftime("%H:%M:%S", time.gmtime(elapsed_time))
 
 
 if __name__== "__main__":

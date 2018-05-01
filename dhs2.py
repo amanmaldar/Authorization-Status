@@ -88,7 +88,7 @@ def main():
 		success, pending, denied, rejected, others= execute(i*1000,i*1000+1000)
 		t1= pending+success+denied+rejected+others
 		h1 = round((float(success+denied+rejected+others)/(float(pending+success+denied+rejected+others)))*100,2)
-		print i*1000,"-",i*1000+999, "  |  " ,success ,"    " ,pending ,"  		 " ,denied ,"  		 " ,rejected ,"  		  " ,others ,"        " ,t1 ,"         " ,h1 ,"%"
+		print i*1000,"-",i*1000+999, "  |  " ,success ,"    " ,pending ,"  	" ,denied ,"  	" ,rejected ,"  	" ,others ,"        " ,t1 ,"       " ,h1 ,"%"
 
 		#print "Approved" , success, "Pending" , pending, "Denied", denied, "Rejected" , rejected, "Others", others, "Total I-765", pending+success+denied+rejected+others, \
 		#"Handled", round((float(success+denied+rejected+others)/(float(pending+success+denied+rejected+others)))*100,2) , "%"

@@ -1,3 +1,4 @@
 #!/bin/bash
 git pull origin master
-python dhs2.py 2>&1 | tee 30april.txt
+# execute following seperately
+#python dhs2.py 2>&1 | tee 0april.txt

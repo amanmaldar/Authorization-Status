@@ -8,7 +8,7 @@ import time
 
 def execute(aa,bb):
 	#print "in execute"
-	printing = 0
+	printing = 1
 	success = 0
 	pending = 0
 	denied = 0

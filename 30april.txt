@@ -1,4 +1,5 @@
-     Range       | Approved | Pending | Denied | Rejected | Others | Total I-765 | Handled
+ 30 april 
+	Range       | Approved | Pending | Denied | Rejected | Others | Total I-765 | Handled
 120000 - 120999   |   102      97    	 	1     1      	2         203       52.22 %
 121000 - 121999   |   109      55    	 	0     0      	0         164       66.46 %
 122000 - 122999   |   153      75    	 	0     1      	4         233       67.81 %
@@ -8,3 +9,5 @@
 126000 - 126999   |   43      	182     	0     1      	7         233       21.89 %
 127000 - 127999   |   27      	177     	0     0      	4         208       14.9 %
 128000 - 128999   |   12      	190     	0     4      	8         214       11.21 %
+
+1 may

@@ -8,11 +8,11 @@ import time
 
 def execute(aa,bb):
 	#print "in execute"
-	printing = 1
+	printing = 0
 	success = 0
 	pending = 0
 	denied = 0
-	others = 1
+	others = 0
 	rejected = 0
 	url = 'https://egov.uscis.gov/casestatus/mycasestatus.do'
 

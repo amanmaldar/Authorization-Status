@@ -83,7 +83,7 @@ def execute(aa,bb):
 		
 def main():
 	start_time = time.time()
-	print "     Range       | Approved | Pending | Denied | Rejected | Others | Total I-765 | Handled" 
+	print "     Range        | Approved | Pending | Denied | Rejected | Others | Total I-765 | Handled" 
 	for i in range (120,129,1):
 		success, pending, denied, rejected, others= execute(i*1000,i*1000+1000)
 		t1= pending+success+denied+rejected+others

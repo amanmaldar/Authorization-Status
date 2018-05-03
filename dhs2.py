@@ -8,7 +8,7 @@ def execute(aa,bb):
 	success = 0
 	pending = 0
 	denied = 0
-	others = 0
+	others = 1
 	rejected = 0
 	url = 'https://egov.uscis.gov/casestatus/mycasestatus.do'
 
